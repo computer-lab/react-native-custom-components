@@ -143,14 +143,6 @@ function buildSceneInterpolators(startStyles, endStyles) {
         max: 1,
         round: opacityRatio,
       },
-      left: {
-        type: 'linear',
-        from: startStyles.RightButton.left,
-        to: endStyles.RightButton.left,
-        min: 0,
-        max: 1,
-        extrapolate: true,
-      },
     }),
   };
 }
